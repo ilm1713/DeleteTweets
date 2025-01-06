@@ -1,7 +1,7 @@
-var authorization = "Bearer ***"; // replace by authorization value
+var authorization = "Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA"; // replace by authorization value
 var ua = navigator.userAgentData.brands.map(brand => `"${brand.brand}";v="${brand.version}"`).join(', ');
-var client_tid = "***"; // replace by X-Client-Transaction-Id value
-var client_uuid = "***"; // replace by X-Client-Uuid value
+var client_tid = "wf7TTgOb64b4Fs+PyLbCM/VD6s5SUYGRMGO8CQKgSsrgrP91ncpNGM+ZZ3OB7nnc4Myz7cKfKvUFsZZhVFHvwrrBhYbVwg"; // replace by X-Client-Transaction-Id value
+var client_uuid = "ba734bb53c3e475d95bff07b05ea7c73288b1a0244f4c36314fc9ac34e0062228ac1bfef88cc4ecb9333ddf677d826b3a3f0ed409733f986c80c7ccbd1cc736a548546e1247effbfd1e93dfdb462d183"; // replace by X-Client-Uuid value
 var csrf_token = getCookie("ct0");
 var random_resource = "uYU5M2i12UhDvDTzN6hZPg";
 var random_resource_old_tweets = "H8OOoI-5ZE4NxgRr8lfyWg"
